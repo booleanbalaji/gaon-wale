@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Gaon-wale",
+    "description": "Updates Gurgaon to Gurugram. Hehe.",
+    "version": "1.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
